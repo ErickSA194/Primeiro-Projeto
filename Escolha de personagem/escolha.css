@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(280deg, rgba(9, 158, 96, 0.856), rgba(38, 196, 6, 0.89));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    background-color: #52d473;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    box-shadow: 6px 6px 7px rgba(0, 0, 0, 0.432);
+    background: linear-gradient(280deg, rgba(8, 97, 60, 0.856), rgba(38, 196, 6, 0.89), rgba(23, 235, 4, 0.774), rgba(219, 52, 10, 0.842));
+}
+
+#imagem {
+    margin-top: 20px;
+    width: 300px;
+}
+
+#imagem section {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 300px;
+}
+
+#imagem img {
+    width: 700px;
+    height: 600px;
+    border: 2px solid #0f0f0f;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+#curiosidade {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+#curiosidade #informa {
+    text-align: center;
+}
+
+#curiosidade h2 {
+    margin-bottom: 10px;
+}
+
+#curiosidade p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#botao {
+    margin-top: 20px;
+}
+
+#botao button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#botao img {
+    width: 50px;
+    height: auto;
+    border-radius: 100px;
+}
+@media (max-width: 768px) {
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#container {
+    text-align: center;
+}
+
+.imagens {
+    margin-bottom: 20px;
+}
+
+#imagem {
+    width: 300px;
+    border-radius: 10px;
+}
+
+#mudar {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1db954;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #1ed760;
+}
+
+#musicas {
+    margin-top: 20px;
+}
+
+audio {
+    width: 100%;
+}
